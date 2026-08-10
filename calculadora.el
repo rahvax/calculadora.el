@@ -9,7 +9,6 @@
 ;;; (+ 2 2) - expressão
 ;;; (setq name "Gabriel") - variável
 ;;; Code:
-(defun showMyName (name)
-  (insert "U's " name))
-(showMyName "gabriel")
+(defun somar (valor1 valor2)
+  (insert (+ valor1 valor2)))
 ;;; calculadora.el ends here
