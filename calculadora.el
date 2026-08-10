@@ -4,7 +4,10 @@
 ;;; Esse projeto foi criado para que eu pratique Elisp um pouco.
 ;;; A ideia é apenas uma calculadora padrão e dinâmica em Elisp.
 
-;;; Code:
-(+ 2 2)
+;;; * Para executar o código use C-j ou C-x C-e ao final da linha
 
+;;; (+ 2 2) - expressão
+;;; (setq name "Gabriel") - variável
+(insert "Hello, World") 
+;;; Code:
 ;;; calculadora.el ends here
