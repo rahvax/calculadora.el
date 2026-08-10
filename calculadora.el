@@ -4,7 +4,7 @@
 ;;; Esse projeto foi criado para que eu pratique Elisp um pouco.
 ;;; A ideia é apenas uma calculadora padrão e dinâmica em Elisp.
 
-;;; * Para executar o código use C-j ou C-x C-e ao final da linha
+;;; * Para executar o código: M-x eval-buffer
 
 ;;; (+ 2 2) - expressão
 ;;; (setq name "Gabriel") - variável
