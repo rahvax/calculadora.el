@@ -8,6 +8,8 @@
 
 ;;; (+ 2 2) - expressão
 ;;; (setq name "Gabriel") - variável
-(insert "Hello, World") 
 ;;; Code:
+(defun showMyName (name)
+  (insert "U's " name))
+(showMyName "gabriel")
 ;;; calculadora.el ends here
