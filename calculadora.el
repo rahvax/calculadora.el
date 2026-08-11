@@ -10,6 +10,11 @@
 ;;; (setq name "Gabriel") - variável
 ;;; Code:
 (defun somar (valor1 valor2)
-  (message (format "soma: %i" (+ valor1 valor2))))
-(somar 10 10)
+  (message (format "resultado: %i" (+ valor1 valor2))))
+(defun multiplicar (valor1 valor2)
+  (message (format "resultado: %i" (* valor1 valor2))))
+(defun dividir (valor1 valor2)
+  (message (format "resultado: %i" (/ valor1 valor2))))
+(defun subtrair (valor1 valor2)
+  (message (format "resultado: %i" (- valor1 valor2))))
 ;;; calculadora.el ends here
