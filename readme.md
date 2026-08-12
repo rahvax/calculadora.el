@@ -1,2 +1,4 @@
 # Calculadora.el
 O projeto foi criado para compartilhar um pouco de um dos projetos mais comuns de iniciar em alguma linguagem. Nesse caso eu estou iniciando em `Emacs-Lisp`, a linguagem usada pelo `GNU/Emacs` para criar pacotes e personalizar o editor.
+
+A ideia do projeto é criar um histórico linear conforme eu fui entendendo melhor o Elisp para contribuir em meu uso diário ao Emacs; sendo o editor que está presente em 99% da minha rotina, é uma necessidade grande entender sua linguagem para que eu consiga criar automações como meu projeto [Slack-C.el](https://www.github.com/rahvax/slack-c.el) e facilitar minha vida.
