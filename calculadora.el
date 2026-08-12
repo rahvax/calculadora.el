@@ -8,12 +8,15 @@
 (defun somar (valor1 valor2)
   "Função feita para somar VALOR1 e VALOR2."
   (message (format "resultado: %i" (+ valor1 valor2))))
+
 (defun multiplicar (valor1 valor2)
   "Função feita para... multiplicar VALOR1 e VALOR2."
   (message (format "resultado: %i" (* valor1 valor2))))
+
 (defun dividir (valor1 valor2)
   "Função feita para... dividir VALOR1 e VALOR2."
   (message (format "resultado: %i" (/ valor1 valor2))))
+
 (defun subtrair (valor1 valor2)
   "Função... Feita... Para... Multiplicar VALOR1 e VALOR2."
   (message (format "resultado: %i" (- valor1 valor2))))
