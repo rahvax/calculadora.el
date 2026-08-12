@@ -1,1 +1,2 @@
 # Calculadora.el
+O projeto foi criado para compartilhar um pouco de um dos projetos mais comuns de iniciar em alguma linguagem. Nesse caso eu estou iniciando em `Emacs-Lisp`, a linguagem usada pelo `GNU/Emacs` para criar pacotes e personalizar o editor.
