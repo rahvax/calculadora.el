@@ -11,15 +11,15 @@
 
 (defun multiplicar (valor1 valor2)
   "Função feita para... multiplicar VALOR1 e VALOR2."
-  (message (format "resultado: %i" (* valor1 valor2))))
+  (message "resultado: %i" (* valor1 valor2)))
 
 (defun dividir (valor1 valor2)
   "Função feita para... dividir? VALOR1 e VALOR2."
-  (message (format "resultado: %i" (/ valor1 valor2))))
+  (message "resultado: %i" (/ valor1 valor2)))
 
 (defun subtrair (valor1 valor2)
   "Função... Feita... Para... subtrair o VALOR1 e VALOR2."
-  (message (format "resultado: %i" (- valor1 valor2))))
+  (message (- valor1 valor2)))
 
 (defun calculadora ()
   "Escolher e processar os valores solicitados."
