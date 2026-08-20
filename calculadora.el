@@ -24,13 +24,14 @@
 (defun calculadora ()
   "Escolher e processar os valores solicitados."
   (let* ((valor1 (string-to-number(read-from-minibuffer "valor1: ")))
-	 (valor2 (string-to-number(read-from-minibuffer "valor2: "))))
-    (somar valor1 valor2)))
-;;(calculadora)
-(setq numero 4)
-(cond
- ((> numero 10) (message "o numero é maior que 10"))
- ((= numero 5) (message "o numero é 5"))
- ((< numero 5) (message "é menor que 5"))
- (t (message "o numero é maior que 5 e menor que 10")))
+	 (valor2 (string-to-number(read-from-minibuffer "valor2: ")))
+	 (sinal  (read-from-minibuffer "sinal (+-*/): ")))
+    (cond
+     ((string= sinal "+") (somar valor1 valor2))
+     ((string= sinal "-") (subtrair valor1 valor2))
+     ((string= sinal "*") (multiplicar valor1 valor2))
+     ((string= sinal "/") (dividir valor1 valor2))
+     (t (message "é preciso ditar um sinal válido")))
+    ))
+(calculadora)
 ;;; calculadora.el ends here
