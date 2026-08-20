@@ -26,5 +26,9 @@
   (let* ((valor1 (string-to-number(read-from-minibuffer "valor1: ")))
 	 (valor2 (string-to-number(read-from-minibuffer "valor2: "))))
     (somar valor1 valor2)))
-(calculadora)
+;;(calculadora)
+(setq numero 16)
+(if (> numero 10)
+    (message "maior que dez")
+  (message "menor que dez"))
 ;;; calculadora.el ends here
