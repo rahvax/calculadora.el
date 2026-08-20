@@ -27,8 +27,10 @@
 	 (valor2 (string-to-number(read-from-minibuffer "valor2: "))))
     (somar valor1 valor2)))
 ;;(calculadora)
-(setq numero 16)
-(if (> numero 10)
-    (message "maior que dez")
-  (message "menor que dez"))
+(setq numero 4)
+(cond
+ ((> numero 10) (message "o numero é maior que 10"))
+ ((= numero 5) (message "o numero é 5"))
+ ((< numero 5) (message "é menor que 5"))
+ (t (message "o numero é maior que 5 e menor que 10")))
 ;;; calculadora.el ends here
